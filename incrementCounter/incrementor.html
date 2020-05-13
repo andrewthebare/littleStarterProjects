@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incrementor</title>
+    <link rel = "stylesheet" href = "incrementor.css">
+</head>
+
+<body>
+    <div class='centerHolder flexDisplay'>
+        <div class="hHolder">
+            <button id="subtract" onclick="increment(false)">-</button>
+            <div id="display"><h1 id="number">1</h1></div>
+            <button id="add" onclick="increment(true)">+</button>
+        </div>
+
+        <div class="hHolder">
+            <input type="number" id="input" onchange="setIncrement()"/>
+        </div>
+
+        <div class="hHolder">
+            <h1>This is the number to increment by</h1>
+        </div>
+    </div>
+
+<script src="incrementor.js"></script>
+
+</body>
+</html>

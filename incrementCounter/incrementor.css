@@ -1,0 +1,64 @@
+.centerHolder{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    right: 15%;
+
+    min-width: 400px;
+    min-height: 200px;
+
+    background-color: slategrey;
+    border: 5px solid black;
+}
+
+.flexDisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hHolder{
+    position: relative;
+    left: 0;
+    right: 0;
+    min-height: 50px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+button{
+    min-height: 200px;
+    min-width: 200px;
+
+    font-size: 150pt;
+
+    background-color:antiquewhite;
+    border: 5pt solid black;
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#display{
+    position: absolute;
+    top: -10%;
+    bottom:-10%;
+    min-width: 200px;
+
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: antiquewhite;
+    border: 5pt solid black;
+
+    font-size: 50pt;
+}
