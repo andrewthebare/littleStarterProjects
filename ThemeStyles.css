@@ -1,0 +1,31 @@
+.centerHolder{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    right: 15%;
+
+    min-width: 400px;
+    min-height: 200px;
+
+    background-color: slategrey;
+    border: 5px solid black;
+}
+
+.flexDisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hHolder{
+    position: relative;
+    left: 0;
+    right: 0;
+    min-height: 50px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
