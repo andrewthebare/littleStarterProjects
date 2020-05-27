@@ -10,6 +10,7 @@ export default function Square(props) {
     function displayBomb(){
         if (display === ''){
             if (props.bomb.toString() === 'true'){
+                document.getElementById('displayMessage').innerHTML='YOU DIED';
                 return 'X'
             }
             else {
